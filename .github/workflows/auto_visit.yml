@@ -2,7 +2,7 @@ name: Auto Visit Websites
 
 on:
   schedule:
-    - cron: '*/4 * * * *'  # 每4分钟执行一次
+    - cron: '*/13 * * * *'  # 每4分钟执行一次
   workflow_dispatch:
 
 jobs:
